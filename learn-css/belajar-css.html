@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <style type="text/css">
+   /* Ini adalah embedded/Internal CSS dengan select semua h1*/
+    h1{
+      color: white;
+      background-color: green;
+    }
+   /* Ini adalah embedded/Internal CSS dengan select id intro*/
+    #intro{
+      color: blue;
+    }
+
+     /* Ini adalah embedded/Internal CSS dengan select id intro2 dengan descendants (anaknya)*/
+    #intro2 .pertama em{
+      color: blue;
+    }
+
+    /*
+    p adalah selector
+    color adalah property
+    white adalah value
+      p{color: white;}
+     */
+  </style>
+  <link rel="stylesheet" type="text/css" href="eksternal.css">
+</head>
+
+<title>Learn CSS</title>
+<body>
+   <!-- Ini adalah embedded/Internal CSS -->
+  <h1>Ini adalah embedded/Internal CSS</h1>
+     <!-- Ini adalah ekternal CSS -->
+  <h2>Ini adalah ekternal CSS</h2>
+  <!-- Ini adalah contoh inline css -->
+  <p style="color: white; background-color: blue">
+    Ini adalah contoh inline css
+  </p>
+<div id="intro">
+  ini adalah section intro
+</div>
+<div id="intro2">
+  <p class="pertama">ini adalah section intro dengan <em>anaknya</em></p>
+</div>
+
+
+
+<footer>
+	<p>Credit by Muhamad Habib</p>
+</footer>
+
+</body>
+<html>
