@@ -2,3 +2,14 @@ h2 {
 	color: white;
 	background-color: yellow;
 }
+p.serif {
+	font-family: "Times New Roman";
+}
+
+p.sansserif {
+	font-family: Arial;
+}
+
+p.monospace{
+	font-family: monospace;
+}
