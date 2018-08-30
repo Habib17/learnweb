@@ -13,3 +13,55 @@ p.sansserif {
 p.monospace{
 	font-family: monospace;
 }
+
+p.small{
+	font-size: small;
+}
+
+p.medium {
+	font-size: medium;
+}
+
+p.large {
+	font-size: large;
+}
+
+p.xlarge {
+	font-size: x-large;
+}
+
+p.pixel {
+	font-size: 30px;
+}
+
+p.italic {
+	font-style: italic;
+}
+
+p.light {
+	font-weight: lighter;
+}
+
+p.bold {
+	font-weight: bold;
+}
+
+p.bolder{
+	font-weight: bolder;
+}
+
+p.thin {
+	font-weight: 100;
+}
+
+p.thick {
+	font-weight: 700;
+}
+
+p.small{
+	font-variant: small-caps;
+}
+
+p.normal {
+	font-variant: normal;
+}
