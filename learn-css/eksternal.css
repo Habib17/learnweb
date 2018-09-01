@@ -89,3 +89,50 @@ p.center {
 p.right {
 	text-align: right;
 }
+
+td.top{
+	vertical-align: top;
+}
+
+td.middle{
+	vertical-align: middle;
+}
+
+td.bottom{
+	vertical-align: bottom;
+}
+
+p.none {
+	text-decoration: none;
+}
+
+p.inherit{
+	text-decoration: inherit;
+}
+
+p.overline{
+	text-decoration: overline;
+}
+
+p.underline{
+	text-decoration: underline;
+}
+
+p.line-throught{
+	text-decoration: line-through;
+}
+
+#indent{
+	text-indent: 60px;
+}
+
+h1{
+	color: grey;
+	font-size: 50px;
+/* 
+55px – the X-coordinate
+67px – the Y-coordinate 
+2px – the blur radius
+blue – the color of the shadow*/
+	text-shadow: 55px, 67px, 2px, blue;
+}
