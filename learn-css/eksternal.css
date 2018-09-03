@@ -136,3 +136,61 @@ h1{
 blue – the color of the shadow*/
 	text-shadow: 55px, 67px, 2px, blue;
 }
+
+p.capitalize {
+	text-transform: capitalize;
+}
+
+p.lower{
+	text-transform: lowercase;
+}
+
+p.upper{
+	text-transform: uppercase;
+}
+
+p.positive{
+	letter-spacing: 4px;
+}
+
+p.negative{
+	letter-spacing:-1.5px;
+}
+
+p.wordpost{
+	word-spacing: 4px;
+}
+
+p.wordnegative{
+	word-spacing: -3px;
+}
+
+p.whitespace{
+	white-space: nowrap;
+}
+
+p.pre {
+   white-space: pre;
+}
+p.preline {
+   white-space: pre-line;
+}
+p.prewrap {
+   white-space: pre-wrap;
+}
+
+p.border{
+	border: 5px solid green;
+}
+
+p.duapixel{
+	padding: 10px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+p.limapixel{
+	padding: 10px;
+	border-style: solid;
+	border-width: 5px;
+}
