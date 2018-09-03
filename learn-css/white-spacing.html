@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+ <title>White Spacing</title>
+ <link rel="stylesheet" type="text/css" href="eksternal.css"> 
+</head>
+
+<body>
+<p class="nowrap">
+  Ini adalah white space no        wrap      yaaa
+</p>
+<!-- teks hanya akan wrap pada  line breaks dan white space -->
+<p class="pre"> 
+In the markup we have multiple            spaces 
+and a line break. 
+</p>
+<!-- teks akan wrap di line breaks, tetapi white space ekstra masih diabaikan -->
+<p class="preline"> 
+In the markup we have multiple            spaces 
+and a line break, but in the result multiple spaces are ignored. 
+</p>
+<!-- teks akan wrap bila perlu, dan pada line breaks -->
+<p class="prewrap"> 
+In the markup we have              multiple 
+spaces and a line break.
+</p>
+
+
+</body>
+<html>
