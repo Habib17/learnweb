@@ -212,7 +212,19 @@ p.bordermaxmin{
 	min-height: 100px;
 }
 
-p.bordermaxmina{
-	border: 5px solid green;
-	max-width: 100px
+p.bchexadecimal{
+	background-color: #C0C0C0;
+}
+
+p.bcrgb{
+	background-color: rgb(135,206,235);
+}
+
+p.bcvalue{
+	background-color: LightGreen;
+	color: white;
+}
+
+body.bgimage{
+	background-image: url("my profile.jpg");
 }
