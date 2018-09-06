@@ -228,3 +228,15 @@ p.bcvalue{
 body.bgimage{
 	background-image: url("my_profile.jpg");
 }
+
+body.attachmentfix{
+	background-image: url("video-player.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body.attachmentscroll{
+	background-image: url("video-player.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
