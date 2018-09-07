@@ -240,3 +240,26 @@ body.attachmentscroll{
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 }
+
+ol.lower-alpha{
+ list-style-type: lower-alpha;
+}
+
+ul.circle{
+	list-style-type: circle;
+}
+
+ul.square{
+	list-style-type: square;
+}
+
+ul.image{
+	list-style-image: url("video-player.png");
+	list-style-position: inside;
+}
+
+ul.outside{
+	list-style-type: square;
+	list-style-position: outside;
+	list-style-image: none;
+}
