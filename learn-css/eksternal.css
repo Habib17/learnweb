@@ -263,3 +263,33 @@ ul.outside{
 	list-style-position: outside;
 	list-style-image: none;
 }
+
+table.saparate{
+ border-collapse: separate;
+ border-spacing: 20px 40px;
+ empty-cells: hide;
+}
+
+caption{
+	caption-side: top;
+}
+
+td{
+	border: 1px solid grey;
+}
+
+table.auto{
+	table-layout: auto;
+	 border-collapse: separate;
+   width: 100%;
+   border: 1px solid gray;
+}
+
+table.fixed{
+	table-layout: fixed;
+	 border-collapse: separate;
+   width: 100%;
+   border: 1px solid gray;
+}
+
+t
