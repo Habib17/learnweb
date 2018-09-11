@@ -292,4 +292,14 @@ table.fixed{
    border: 1px solid gray;
 }
 
-t
+a:hover{
+	color: yellow;
+}
+
+a:visited{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
