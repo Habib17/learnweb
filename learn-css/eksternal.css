@@ -303,3 +303,10 @@ a:visited{
 a:active{
 	color: green;
 }
+span.block{
+	display: block;
+}
+
+span.inline{
+	display: inline;
+}
