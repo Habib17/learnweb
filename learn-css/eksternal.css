@@ -310,3 +310,7 @@ span.block{
 span.inline{
 	display: inline;
 }
+
+div.hidden{
+	visibility: hidden;
+}
