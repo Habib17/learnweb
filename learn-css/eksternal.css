@@ -313,4 +313,30 @@ span.inline{
 
 div.hidden{
 	visibility: hidden;
+
+}
+p.position_static {
+   position:static;
+   top: 30px;
+   right: 5px;
+   color: red;
+}
+p.position_fixed {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    color: red;
+}
+
+p.relative {
+    width: 350px;
+    border: 1px black solid;
+    position: fixed;
+}
+span.relative {
+    background: green;
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 50px;
 }
