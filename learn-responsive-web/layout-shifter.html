@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width = device-width , initial-scale = 1">
+	<style type="text/css">
+		.container{
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.box{
+			width: 100%;
+		}
+
+		.dark_blue{
+			background-color:  #191970;
+			height: 50px;
+		}
+
+		.light_blue{
+			background-color:  #ADD8E6;
+			height: 50px;
+		}
+
+		.green{
+			background-color:  green;
+			height: 50px;
+		}
+
+		.red{
+			background-color: red;
+			height: 50px;
+		}
+		@media screen and (min-width: 500px){
+			.dark_blue{
+				width: 50%;
+			}
+
+			.container2{
+				width: 50%;
+			}
+		}
+
+		@media screen and (min-width: 600px){
+			.dark_blue{
+				width: 25%;
+				order: 1;
+			}
+			.container2{
+				width: 50%;
+			}
+			.red{
+				width: 25%;
+				order: -1;
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="box dark_blue"></div>
+	<div class="container2">
+		<div class="box light_blue"></div>
+		<div class="box green"></div>
+	</div>
+	<div class="box red"></div>
+</div>
+</body>
+</html>
